@@ -1,3 +1,27 @@
+.custom-btn {
+  background-size: cover;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 257px;
+  height: 258px;
+  top: 475px;
+  left: 127px
+}
+
+.custom-btn-netflix {
+  background-size: cover;
+  background-image: url(/assets/profile/Netflix\ logo.png);
+  color: #fff;
+  border: none;
+  width: 210px;
+  height: 80px;
+  top: 71px;
+  left: 37px;
+  
+
+}
 .custom-btn-netflix {
     background-size: cover;
     background-image: url(/Assets/Netflix\ logo.png);
