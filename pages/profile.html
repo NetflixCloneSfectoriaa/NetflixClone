@@ -2,25 +2,74 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/color.css">
+  <link rel="shortcut icon" href="/assets/profile/icon.png" type="image/x-icon" />
+  <title>Netflix</title>
 </head>
 
-<body>
+
+<body style="height: 100vh;" >
+  <header class="bg-prof text-white">
+    <nav class="bg-prof navbar p-1 d-flex align-items-center  " style=" width: 100%;">
+      <div class="">
+        <button type="button" class="btn custom-btn-netflix  " ></button>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+  <section class="bg-prof text-white d-flex align-items-center justify-content-center "style="height: 87.3vh;" >
+    <div class="d-flex flex-column align-items-center mt-5" style="height: 80.50vh;">
+      <div>
+        <h2 class="d-flex justify-content-center" style="font:inter; font-weight: 400;size: 250px;">Who's watching?</h2>
+      </div>
+      <div class="d-flex justify-content-center align-items-center gap-5 mt-3 flex-wrap " style="height: 50vh;">
+
+        <div class="d-flex flex-column align-items-center">
+         
+          <button type="button" class="btn custom-btn profile" id="sabrine" style="background-image: url(/assets/profile/sabrine.PNG) ; background-size: cover; size: 20%;"></button>
+          <h5 class="mt-2" style=" height: 30px; ">Sabrine Zouaoui</h5>
+        </div>
+
+        <div class="d-flex flex-column align-items-center">
+
+            <button type="button" class="btn custom-btn" id="ahmed" style="background-image: url(/assets/profile/proff.PNG) ; background-size: cover;"></button>
+          <h5 class="mt-2" style=" height: 30px;">Ahmed Ghalleb</h5>
+
+        </div>
+        <div class="d-flex flex-column align-items-center">
+
+            <button type="button" class="btn custom-btn" id="nassim" style="background-image: url(/assets/profile/Nassim.PNG) ; background-size: cover;"></button>
+          <h5 class="mt-2" style="height: 30px;">Nassim Kiwif</h5>
+
+        </div>
+        <div class="d-flex flex-column align-items-center">
+
+  <button type="button" class="btn custom-btn" id="farouk" style="background-image: url(/assets/profile/farouk.PNG) ; background-size: cover;"></button>       
+     <h5 class="mt-2" style="height: 30px;">Farouk Mestiri</h5>
+
+        </div>
+      </div>
+      <div>
+        <button type="button" class="btn btn-outline-secondary mt-5" style="border-radius: 30px;" >Manage Profiles </button>
+      </div>
+    </div>
+   
+    
+  </section>
 
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="JavaScript/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="/JavaScript/main.js"></script>
 </body>
 
 </html>

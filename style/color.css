@@ -1,0 +1,21 @@
+.bg-prof {
+    background-color:#141414E3
+}
+
+.txt-name {
+    color: #312c2ce3;
+}
+
+.cardlist .listitem li::marker {
+    content: "✔️";
+}
+input{
+    background-color:#EEEEEE !important;
+    border: solid 1px black !important;
+}
+textarea{
+    background-color: #EEEEEE !important;
+    border: solid 1px black !important;
+}
+h5{color:#6A6868;
+}
