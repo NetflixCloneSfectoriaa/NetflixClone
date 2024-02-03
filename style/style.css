@@ -94,7 +94,7 @@ form *{
 }
 .custom-btn-netflix {
     background-size: cover;
-    background-image: url(/Assets/Netflix\ logo.png);
+    background-image: url(../assets/Netflix\ logo.png);
     color: #fff;
     border: none;
     width: 210px;
@@ -108,4 +108,18 @@ form *{
  }
  .bg-color2{
   background-color:#000000;
+ }
+ .custom-btn-netflix {
+  background-size: cover;
+  background-image: url(../assets/Netflix\ logo.png);
+  color: #fff;
+  border: none;
+  width: 210px;
+  height: 80px;
+  top: 71px;
+  left: 37px;
+ }
+ .bg-color{
+  background-color: black;
+
  }
