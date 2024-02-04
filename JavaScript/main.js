@@ -73,8 +73,24 @@ let addprop =(movie,prop,newprop)=>{
 
 // $('.profile').css({width:"400px"})
 
+
 $("#ahmed").hover(function(){
-    $(this).css("width","300px");
+    $(this).css("transform","scale(1.2)")
 },function(){
-    $(this).css("width","257px");
+    $(this).css("transform","scale(1)");
+})
+$("#sabrine").hover(function(){
+    $(this).css("transform","scale(1.2)")
+},function(){
+    $(this).css("transform","scale(1)");
+})
+$("#nassim").hover(function(){
+    $(this).css("transform","scale(1.2)")
+},function(){
+    $(this).css("transform","scale(1)");
+})
+$("#farouk").hover(function(){
+    $(this).css("transform","scale(1.2)")
+},function(){
+    $(this).css("transform","scale(1)");
 })

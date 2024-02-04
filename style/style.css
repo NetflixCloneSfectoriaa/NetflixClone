@@ -1,8 +1,7 @@
 body {
-    background-image: url("../assets/37729135-thin-line-icon-with-flat-design-element-of-business-idea-thinking-person-problem-solving-human-brain.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-   
+  background-image: url("../assets/37729135-thin-line-icon-with-flat-design-element-of-business-idea-thinking-person-problem-solving-human-brain.jpg");
+  background-attachment: fixed;
+  background-size: cover;
   }
   .color-text{
     color:#6A6868;
@@ -80,7 +79,7 @@ form *{
   left: 127px
 }
 
-.custom-btn-netflix {
+/* .custom-btn-netflix {
   background-size: cover;
   background-image: url(/assets/profile/Netflix\ logo.png);
   color: #fff;
@@ -91,16 +90,17 @@ form *{
   left: 37px;
   
 
-}
+} */
 .custom-btn-netflix {
     background-size: cover;
     background-image: url(../assets/Netflix\ logo.png);
     color: #fff;
-    border: none;
+    border-radius: 10px;
     width: 210px;
     height: 80px;
     top: 71px;
     left: 37px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.5);
   
   }
  .bg-color{
@@ -119,3 +119,43 @@ form *{
   top: 71px;
   left: 37px;
  }
+ .profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  text-align: center;
+  display: inline-block;
+  margin-left: 25px;
+ }
+
+ footer{
+  position: absolute;
+  margin-top: 700px;
+  z-index: 2;
+  background: rgba(0,0,0,0.65);
+  width: 100%;
+  height: 200px;
+ }
+
+ .ftr-content{
+  margin-left: 10%;
+  padding-top: 20px;
+  font-size: 1em;
+ }
+ .contact{
+  margin-bottom: 30px;
+ }
+ .ftr {
+  margin-bottom: 0px;
+  width: 70%;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+ }
+
+
+ .signin{
+  margin-top: 10%;
+ }
+ 
