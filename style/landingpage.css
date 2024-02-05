@@ -1,0 +1,12 @@
+.bg-darkness {
+    background: rgba(0,0,0,0.65);
+    height:100vh;
+    border-bottom : 10px solid gray
+}
+
+.inputEmail {
+    border: 1px solid #12864E;
+    background: rgba(0,0,0,0.65); 
+    color:white !important;
+    margin-top : 0 !important;	
+}
