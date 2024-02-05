@@ -24,3 +24,14 @@ $("#mail").on("focusout",function () {
 $("#mail").on("focusin",function () {
     $("#mail").css("transform","scale(1.05)")
 })
+function changeLanguage(langCode) {
+    if (langCode === 'en') {
+        console.log("Language changed to English");
+    } else if (langCode === 'fr') {
+        console.log("Language changed to Français");
+    } else if (langCode === 'ar') {
+        console.log("Language changed to العربية");
+    }
+}
+
+
