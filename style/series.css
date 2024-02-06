@@ -1,0 +1,47 @@
+
+#clickSearch {
+    color: white;
+    padding-left: 5%;
+    text-align: start;
+    background: none;
+    border: 1px solid white;
+    height: 2.2rem;  
+}
+.filmsContainer{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    height: 100vH;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 6px;
+    flex-wrap: wrap;
+    height: 50%;
+    transition: all 0.5s;
+    
+}
+
+.film{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.film:hover{
+    transform: scale(1.8);
+    transition: ease-out 0.5s;
+}
+.film img {
+
+    width: 12rem;
+}
+.filmInfo{
+    background-color: #1e1d1d;
+    
+    width: 100%;
+    height: 4rem;
+}
+.material-symbols-outlined{
+    cursor: pointer;
+}
