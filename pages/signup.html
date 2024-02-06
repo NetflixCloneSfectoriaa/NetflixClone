@@ -6,14 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/color.css">
+    <link rel="stylesheet" href="/style/signin.css">
+    
+    <link rel="shortcut icon" href="../assets/netflix icon.png" type="image/x-icon">
+    <title>Netflix</title>
 </head>
 
-<body>
+<body class="bg ">
+    <header class="text-white">
+        <nav class="navbar p-1 d-flex align-items-center  " style=" width: 100%;">
+            <div class="">
+                <a href="/index.html" type="button" class="btn custom-btn-netflix  "></a>
+
+            </div>
+        </nav>
+    </header>
+<div class="d-flex justify-content-center ">
+
+    <section class="form "  >
+        <div class="d-flex flex-column gap-3  align-items-center ">
+            <div>
+                <div>
+                    <h2 class="card-title text-white">Sign Up</h2>
+                    <div class="inputs">
+                        <input  id="email" type="email" placeholder="Email or Phone number">
+                        <h4 id="notvalid--mail">Please enter a valid email or phone number </h4> 
+                        <input id="password" type="password" placeholder="Password"> 
+                        <h4 id="notvalid--pass">Your password must contain between  4 and 60 characters.</h4> 
+                        <input id="password" type="password" placeholder="Confirm Password"> 
+                        <h4 id="notvalid--pass">Your password must contain between  4 and 60 characters.</h4>
+                        <div class="d-flex justify-content-around">
+                            <input class="remember" type="checkbox" id="Remember me" name="Male"  />
+                        <h6 class="color-text">Male</h6>
+                        <input class="remember" type="checkbox" id="Remember me" name="Female" />
+                        <h6 class="color-text">Female</h6>
+                        </div>
+                    </div>
+                     
+                    <a href="/pages/profile.html" class="btn btn-danger w-100 mt-4 p-2" onclick="">Sing Up </a>
+
+                </div>
+                <div class="d-flex wrap justify-content-between p-3 ">
+                    <div class="d-flex wrap ">
+                        <input class="remember" type="checkbox" id="Remember me" name="Remember me"  />
+                        <h6 class="color-text">Remember me</h6>
+                    </div>
+                    <h6 class="color-text">Need help?</h6>
+                </div>
+                <div class="mt-5  align-items-center">
+                    <p class="color-text" style="font-size: 13px;">This page is protected by Google reCAPTCHA to
+                        ensure you're not a bot.<a href="" class="btn btn- "
+                            style="color:#0071EB ;font-size: 13px; ">Learn more.</a> </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+</div>
+
+    <footer>
+
+        <div class="ftr-content">
+            <div class="contact">
+                <a href="#">Questions? Contact us.</a>
+            </div>
+            <div class="ftr">
+                <a href="#">FAQ</a>
+                <a href="#">Terms of Use</a>
+            </div>
+            <div class="ftr">
+                <a href="#">Cancel Membership</a>
+                <a href="#">Privacy</a>
+                <a href="#">Help Center</a>
+            </div>
+            <div class="ftr">
+                <a href="#">Cookie Preference</a>
+                <a href="#">Netflix Shop</a>
+                <a href="#">Impressum</a>
+            </div>
+            <div class="select">
+                <select>
+                    <option>English</option>
+                    <option>العربية</option>
+                    <option>Français</option>
+                    <option>Spanish</option>
+                    <option>Dutch</option>
+                </select>
+            </div>
+        </div>
 
 
 
+    </footer>
+
+
+
+    <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -21,6 +114,9 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="JavaScript/main.js"></script>
+    <script src="/JavaScript/signin.js"></script>
+
 </body>
+
 
 </html>
