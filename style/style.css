@@ -1,4 +1,4 @@
-body {
+.bg {
   background-image: url("../assets/37729135-thin-line-icon-with-flat-design-element-of-business-idea-thinking-person-problem-solving-human-brain.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -11,7 +11,7 @@ body {
     width: 450px;
     background-color: #000000CC ;
     ;
-    position: absolute;
+  
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
@@ -79,18 +79,7 @@ form *{
   left: 127px
 }
 
-/* .custom-btn-netflix {
-  background-size: cover;
-  background-image: url(/assets/profile/Netflix\ logo.png);
-  color: #fff;
-  border: none;
-  width: 210px;
-  height: 80px;
-  top: 71px;
-  left: 37px;
-  
 
-} */
 .custom-btn-netflix {
     background-size: cover;
     background-image: url(../assets/Netflix\ logo.png);
@@ -153,9 +142,34 @@ form *{
   display: flex;
   justify-content: space-between;
  }
-
+.ftr a {
+  text-decoration: none !important;
+  color: white !important;
+}
 
  .signin{
   margin-top: 10%;
  }
+ .p{
+  width:800px;
+  font-size:18px;
+padding-left: 100px;
+ }
+ .bgr{
+  background-color: black;
+ }
+
+ .arrow {
+  border: solid rgb(173, 160, 160);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.material-symbols-outlined{
+  cursor: pointer;
+}
  
