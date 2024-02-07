@@ -27,3 +27,29 @@ $("#signUp").click(function () {
     }
 
 })
+
+
+
+let users = []
+
+let userSingup = () => {
+    users.push({
+    email:$("#email").val(),
+    password:$("#password").val(),
+})
+
+localStorage.setItem("users",JSON.stringify(users))
+}
+
+
+let userSingIn = ()=> {
+    users = JSON.parse(localStorage.getItem("users"))
+    let email =  $("#email").val()
+   let password = $("#password").val()
+   if(users.filter(e=>e.email === email && e.password === password).length) {
+    window.location.replace("http://localhost:5501/pages/profile.html")
+   }
+   else {
+    alert("password wrong")
+   }
+}

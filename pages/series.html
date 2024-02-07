@@ -8,7 +8,6 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="/style/series.css">
-    <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,18 +17,20 @@
 
 <body class="bgr">
     <header>
-        <nav class="d-flex ">
+        <nav class="d-flex " style="width: 100%;">
             <div>
-                <button type="button" class="btn custom-btn-netflix "></button>
+                <a href="/index.html" type="button" class="btn custom-btn-netflix  " ></a>
             </div>
-            <div class="px-5 d-flex gap-3  ">
+            <div class="d-flex justify-content-between" style="width: 100%;">
+            <div class="px-5 d-flex gap-3     " >
                 <div><a href="" class="btn btn- text-white " style="font-size: 17px;">Home</a></div>
                 <div><a href="" class="btn btn- text-white " style="font-size: 17px;">TV Shows</a></div>
                 <div> <a href="" class="btn btn- text-white " style="font-size: 17px;">Movies</a></div>
                 <div> <a href="" class="btn btn- text-white " style="font-size: 17px;">New & Popular</a></div>
                 <div><a href="" class="btn btn- text-white " style="font-size: 17px;">MyList</a></div>
                 <div> <a href="" class="btn btn- text-white " style="font-size: 17px;">Browse by Languages</a></div>
-                <div >
+            </div>
+                <div>
 
                     <input style="display: none; " type="text" placeholder="Search.." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
@@ -43,80 +44,73 @@
 
 
                 </div>
+            </div>
         </nav>
     </header>
 
 
     <div>
-        <video width="100%" autoplay src="../videos/Peaky Blinders _ Season 5 Trailer _ Netflix.mp4"></video>
+        <video width="100%"  autoplay src="../videos/Peaky Blinders _ Season 5 Trailer _ Netflix.mp4"></video>
     </div>
-    <footer>
+    <section>
 
-        <div>
-            <div class="  ftr  ">
-    <section class="text-white ">
-        <div>
-            <img src="../assets/series/image-removebg-preview (1).png" alt="">
-            <p>Avatar is an American media franchise created by James Cameron, which consists of a planned series of
-                epic science fiction films produced by Lightstorm Entertainment </p>
-            <button type="button" class="btn btn-danger ">Top 10 </button>
-            <h3>#1 in Movies Today</h3>
 
-            <button style="font-size:24px">Play <i class="fa fa-play "></i></button>
+        <div class="filmsContainer"></div>
+    </section>
+  
 
 
 
-            <div class="filmsContainer"></div> 
- </section>
 
 
-    <footer>
-        <div class="footericon d-flex gap-2">
 
-                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
-            </div>
-            <div class="d-flex wrap justify-content-around ftr a ">
-                <div>
-                    <div> <a href="#">FAQ</a></div>
-                    <div> <a href="#">Investor Relations</a></div>
-                    <div> <a href="#">Privacy</a></div>
-                    <div> <a href="#">Speed Test</a></div>
-
-
+        <footer>
+            <div class="footericon d-flex gap-2 flex-wrap">
+                <div class="  ftr  ">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
                 </div>
-                <div>
-                    <div><a href="#">Help Centre</a> </div>
-                    <div> <a href="#">Jobs</a> </div>
-                    <div><a href="#">cookie Preferences</a></div>
-                    <div> <a href="#">Legal Notices</a></div>
-                </div>
-                <div>
-                    <div><a href="#">Account</a> </div>
-                    <div><a href="#">Ways to Watch</a> </div>
-                    <div><a href="#">Corporate Information</a></div>
-                    <div><a href="#">Only on Netflix</a></div>
-                </div>
-                <div>
-                    <div> <a href="#">Media Centre</a></div>
-                    <div><a href="#">Terms of Use</a></div>
-                    <div><a href="#">Contact US</a></div>
+                <div class="d-flex wrap justify-content-around ftr a ">
+                    <div>
+                        <div> <a href="#">FAQ</a></div>
+                        <div> <a href="#">Investor Relations</a></div>
+                        <div> <a href="#">Privacy</a></div>
+                        <div> <a href="#">Speed Test</a></div>
+
+
+                    </div>
+                    <div>
+                        <div><a href="#">Help Centre</a> </div>
+                        <div> <a href="#">Jobs</a> </div>
+                        <div><a href="#">cookie Preferences</a></div>
+                        <div> <a href="#">Legal Notices</a></div>
+                    </div>
+                    <div>
+                        <div><a href="#">Account</a> </div>
+                        <div><a href="#">Ways to Watch</a> </div>
+                        <div><a href="#">Corporate Information</a></div>
+                        <div><a href="#">Only on Netflix</a></div>
+                    </div>
+                    <div>
+                        <div> <a href="#">Media Centre</a></div>
+                        <div><a href="#">Terms of Use</a></div>
+                        <div><a href="#">Contact US</a></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="JavaScript/main.js"></script>
-    <script src="/JavaScript/series.js"></script>
+        <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script src="JavaScript/main.js"></script>
+        <script src="/JavaScript/series.js"></script>
 </body>
 
 </html>
